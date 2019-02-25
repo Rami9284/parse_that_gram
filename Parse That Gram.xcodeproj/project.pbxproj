@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14620C4388225CDA6AE0EA49 /* Pods_Parse_That_Gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929A5624546EBD185AA1ADDF /* Pods_Parse_That_Gram.framework */; };
+		9377446CA6B48C1D4288333D /* Pods_Parse_That_GramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90DE1C612081C5E5A0AB99 /* Pods_Parse_That_GramTests.framework */; };
+		AE291F16516D44DF5964CD91 /* Pods_Parse_That_GramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1665160D71FB70F2179DD66 /* Pods_Parse_That_GramUITests.framework */; };
+		BC34C2C02224A02100559B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2BF2224A02100559B89 /* AppDelegate.swift */; };
+		BC34C2C52224A02100559B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC34C2C32224A02100559B89 /* Main.storyboard */; };
+		BC34C2C72224A02600559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC34C2C62224A02600559B89 /* Assets.xcassets */; };
+		BC34C2CA2224A02600559B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC34C2C82224A02600559B89 /* LaunchScreen.storyboard */; };
+		BC34C2D52224A02600559B89 /* Parse_That_GramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2D42224A02600559B89 /* Parse_That_GramTests.swift */; };
+		BC34C2E02224A02600559B89 /* Parse_That_GramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2DF2224A02600559B89 /* Parse_That_GramUITests.swift */; };
+		BC34C2EE2224A8F300559B89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2ED2224A8F300559B89 /* LoginViewController.swift */; };
+		BC34C2F02224A90000559B89 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2EF2224A90000559B89 /* FeedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC34C2D12224A02600559B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC34C2B42224A02100559B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC34C2BB2224A02100559B89;
+			remoteInfo = "Parse That Gram";
+		};
+		BC34C2DC2224A02600559B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC34C2B42224A02100559B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC34C2BB2224A02100559B89;
+			remoteInfo = "Parse That Gram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BD457BD14CC099241082E1 /* Pods-Parse That GramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That GramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That GramUITests/Pods-Parse That GramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC1CBA2836C42AE75F3AFA1 /* Pods-Parse That Gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That Gram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That Gram/Pods-Parse That Gram.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDB50B56D46E7A543892E64 /* Pods-Parse That GramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That GramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That GramTests/Pods-Parse That GramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		929A5624546EBD185AA1ADDF /* Pods_Parse_That_Gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_That_Gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A90DE1C612081C5E5A0AB99 /* Pods_Parse_That_GramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_That_GramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34C2BC2224A02100559B89 /* Parse That Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse That Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34C2BF2224A02100559B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC34C2C42224A02100559B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC34C2C62224A02600559B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC34C2C92224A02600559B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC34C2CB2224A02600559B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC34C2D02224A02600559B89 /* Parse That GramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse That GramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34C2D42224A02600559B89 /* Parse_That_GramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_That_GramTests.swift; sourceTree = "<group>"; };
+		BC34C2D62224A02600559B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC34C2DB2224A02600559B89 /* Parse That GramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parse That GramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34C2DF2224A02600559B89 /* Parse_That_GramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse_That_GramUITests.swift; sourceTree = "<group>"; };
+		BC34C2E12224A02600559B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC34C2ED2224A8F300559B89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC34C2EF2224A90000559B89 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BD3341B0024FF2E95E613DAB /* Pods-Parse That GramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That GramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That GramUITests/Pods-Parse That GramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1665160D71FB70F2179DD66 /* Pods_Parse_That_GramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_That_GramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE76B06411076E362FF7A7A /* Pods-Parse That GramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That GramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That GramTests/Pods-Parse That GramTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAD234B3A6702441A2C4DCD9 /* Pods-Parse That Gram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That Gram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That Gram/Pods-Parse That Gram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC34C2B92224A02100559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14620C4388225CDA6AE0EA49 /* Pods_Parse_That_Gram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2CD2224A02600559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9377446CA6B48C1D4288333D /* Pods_Parse_That_GramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2D82224A02600559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE291F16516D44DF5964CD91 /* Pods_Parse_That_GramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4FDDFF6FD7C08E7C7DA96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC1CBA2836C42AE75F3AFA1 /* Pods-Parse That Gram.debug.xcconfig */,
+				DAD234B3A6702441A2C4DCD9 /* Pods-Parse That Gram.release.xcconfig */,
+				8CDB50B56D46E7A543892E64 /* Pods-Parse That GramTests.debug.xcconfig */,
+				CAE76B06411076E362FF7A7A /* Pods-Parse That GramTests.release.xcconfig */,
+				13BD457BD14CC099241082E1 /* Pods-Parse That GramUITests.debug.xcconfig */,
+				BD3341B0024FF2E95E613DAB /* Pods-Parse That GramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC34C2B32224A02100559B89 = {
+			isa = PBXGroup;
+			children = (
+				BC34C2BE2224A02100559B89 /* Parse That Gram */,
+				BC34C2D32224A02600559B89 /* Parse That GramTests */,
+				BC34C2DE2224A02600559B89 /* Parse That GramUITests */,
+				BC34C2BD2224A02100559B89 /* Products */,
+				1F4FDDFF6FD7C08E7C7DA96D /* Pods */,
+				BDFD64DE1B0AE30B3157EDB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC34C2BD2224A02100559B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC34C2BC2224A02100559B89 /* Parse That Gram.app */,
+				BC34C2D02224A02600559B89 /* Parse That GramTests.xctest */,
+				BC34C2DB2224A02600559B89 /* Parse That GramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC34C2BE2224A02100559B89 /* Parse That Gram */ = {
+			isa = PBXGroup;
+			children = (
+				BC34C2BF2224A02100559B89 /* AppDelegate.swift */,
+				BC34C2C32224A02100559B89 /* Main.storyboard */,
+				BC34C2C62224A02600559B89 /* Assets.xcassets */,
+				BC34C2C82224A02600559B89 /* LaunchScreen.storyboard */,
+				BC34C2CB2224A02600559B89 /* Info.plist */,
+				BC34C2ED2224A8F300559B89 /* LoginViewController.swift */,
+				BC34C2EF2224A90000559B89 /* FeedViewController.swift */,
+			);
+			path = "Parse That Gram";
+			sourceTree = "<group>";
+		};
+		BC34C2D32224A02600559B89 /* Parse That GramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC34C2D42224A02600559B89 /* Parse_That_GramTests.swift */,
+				BC34C2D62224A02600559B89 /* Info.plist */,
+			);
+			path = "Parse That GramTests";
+			sourceTree = "<group>";
+		};
+		BC34C2DE2224A02600559B89 /* Parse That GramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC34C2DF2224A02600559B89 /* Parse_That_GramUITests.swift */,
+				BC34C2E12224A02600559B89 /* Info.plist */,
+			);
+			path = "Parse That GramUITests";
+			sourceTree = "<group>";
+		};
+		BDFD64DE1B0AE30B3157EDB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				929A5624546EBD185AA1ADDF /* Pods_Parse_That_Gram.framework */,
+				9A90DE1C612081C5E5A0AB99 /* Pods_Parse_That_GramTests.framework */,
+				C1665160D71FB70F2179DD66 /* Pods_Parse_That_GramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC34C2BB2224A02100559B89 /* Parse That Gram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC34C2E42224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That Gram" */;
+			buildPhases = (
+				0F4FF4BDA4960276EC6A0AF4 /* [CP] Check Pods Manifest.lock */,
+				BC34C2B82224A02100559B89 /* Sources */,
+				BC34C2B92224A02100559B89 /* Frameworks */,
+				BC34C2BA2224A02100559B89 /* Resources */,
+				E412BA8FA851DF558350C4B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parse That Gram";
+			productName = "Parse That Gram";
+			productReference = BC34C2BC2224A02100559B89 /* Parse That Gram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC34C2CF2224A02600559B89 /* Parse That GramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC34C2E72224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That GramTests" */;
+			buildPhases = (
+				DFCAF24EBCDB918CB8EBB171 /* [CP] Check Pods Manifest.lock */,
+				BC34C2CC2224A02600559B89 /* Sources */,
+				BC34C2CD2224A02600559B89 /* Frameworks */,
+				BC34C2CE2224A02600559B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC34C2D22224A02600559B89 /* PBXTargetDependency */,
+			);
+			name = "Parse That GramTests";
+			productName = "Parse That GramTests";
+			productReference = BC34C2D02224A02600559B89 /* Parse That GramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC34C2DA2224A02600559B89 /* Parse That GramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC34C2EA2224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That GramUITests" */;
+			buildPhases = (
+				FE2D54DC9200BBD5046F35F7 /* [CP] Check Pods Manifest.lock */,
+				BC34C2D72224A02600559B89 /* Sources */,
+				BC34C2D82224A02600559B89 /* Frameworks */,
+				BC34C2D92224A02600559B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC34C2DD2224A02600559B89 /* PBXTargetDependency */,
+			);
+			name = "Parse That GramUITests";
+			productName = "Parse That GramUITests";
+			productReference = BC34C2DB2224A02600559B89 /* Parse That GramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC34C2B42224A02100559B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Judith Ramirez";
+				TargetAttributes = {
+					BC34C2BB2224A02100559B89 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BC34C2CF2224A02600559B89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BC34C2BB2224A02100559B89;
+					};
+					BC34C2DA2224A02600559B89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BC34C2BB2224A02100559B89;
+					};
+				};
+			};
+			buildConfigurationList = BC34C2B72224A02100559B89 /* Build configuration list for PBXProject "Parse That Gram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC34C2B32224A02100559B89;
+			productRefGroup = BC34C2BD2224A02100559B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC34C2BB2224A02100559B89 /* Parse That Gram */,
+				BC34C2CF2224A02600559B89 /* Parse That GramTests */,
+				BC34C2DA2224A02600559B89 /* Parse That GramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC34C2BA2224A02100559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34C2CA2224A02600559B89 /* LaunchScreen.storyboard in Resources */,
+				BC34C2C72224A02600559B89 /* Assets.xcassets in Resources */,
+				BC34C2C52224A02100559B89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2CE2224A02600559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2D92224A02600559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4FF4BDA4960276EC6A0AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse That Gram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCAF24EBCDB918CB8EBB171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse That GramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E412BA8FA851DF558350C4B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Parse That Gram/Pods-Parse That Gram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parse That Gram/Pods-Parse That Gram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2D54DC9200BBD5046F35F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parse That GramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC34C2B82224A02100559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34C2EE2224A8F300559B89 /* LoginViewController.swift in Sources */,
+				BC34C2F02224A90000559B89 /* FeedViewController.swift in Sources */,
+				BC34C2C02224A02100559B89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2CC2224A02600559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34C2D52224A02600559B89 /* Parse_That_GramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34C2D72224A02600559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34C2E02224A02600559B89 /* Parse_That_GramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC34C2D22224A02600559B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC34C2BB2224A02100559B89 /* Parse That Gram */;
+			targetProxy = BC34C2D12224A02600559B89 /* PBXContainerItemProxy */;
+		};
+		BC34C2DD2224A02600559B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC34C2BB2224A02100559B89 /* Parse That Gram */;
+			targetProxy = BC34C2DC2224A02600559B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC34C2C32224A02100559B89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC34C2C42224A02100559B89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC34C2C82224A02600559B89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC34C2C92224A02600559B89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC34C2E22224A02600559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC34C2E32224A02600559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC34C2E52224A02600559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC1CBA2836C42AE75F3AFA1 /* Pods-Parse That Gram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That Gram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-Gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC34C2E62224A02600559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD234B3A6702441A2C4DCD9 /* Pods-Parse That Gram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That Gram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-Gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC34C2E82224A02600559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDB50B56D46E7A543892E64 /* Pods-Parse That GramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That GramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-GramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parse That Gram.app/Parse That Gram";
+			};
+			name = Debug;
+		};
+		BC34C2E92224A02600559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE76B06411076E362FF7A7A /* Pods-Parse That GramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That GramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-GramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parse That Gram.app/Parse That Gram";
+			};
+			name = Release;
+		};
+		BC34C2EB2224A02600559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BD457BD14CC099241082E1 /* Pods-Parse That GramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That GramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-GramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parse That Gram";
+			};
+			name = Debug;
+		};
+		BC34C2EC2224A02600559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3341B0024FF2E95E613DAB /* Pods-Parse That GramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Parse That GramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "csumb.edu.Parse-That-GramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Parse That Gram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC34C2B72224A02100559B89 /* Build configuration list for PBXProject "Parse That Gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34C2E22224A02600559B89 /* Debug */,
+				BC34C2E32224A02600559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC34C2E42224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That Gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34C2E52224A02600559B89 /* Debug */,
+				BC34C2E62224A02600559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC34C2E72224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That GramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34C2E82224A02600559B89 /* Debug */,
+				BC34C2E92224A02600559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC34C2EA2224A02600559B89 /* Build configuration list for PBXNativeTarget "Parse That GramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34C2EB2224A02600559B89 /* Debug */,
+				BC34C2EC2224A02600559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC34C2B42224A02100559B89 /* Project object */;
+}

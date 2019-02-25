@@ -1,0 +1,6 @@
+framework module Pods_Parse_That_GramTests {
+  umbrella header "Pods-Parse That GramTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
