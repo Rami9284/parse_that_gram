@@ -10,6 +10,8 @@
 		14620C4388225CDA6AE0EA49 /* Pods_Parse_That_Gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929A5624546EBD185AA1ADDF /* Pods_Parse_That_Gram.framework */; };
 		9377446CA6B48C1D4288333D /* Pods_Parse_That_GramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A90DE1C612081C5E5A0AB99 /* Pods_Parse_That_GramTests.framework */; };
 		AE291F16516D44DF5964CD91 /* Pods_Parse_That_GramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1665160D71FB70F2179DD66 /* Pods_Parse_That_GramUITests.framework */; };
+		BC2464DE222B2642008386B7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2464DD222B2642008386B7 /* CameraViewController.swift */; };
+		BC2464E0222B3890008386B7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2464DF222B3890008386B7 /* PostCell.swift */; };
 		BC34C2C02224A02100559B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34C2BF2224A02100559B89 /* AppDelegate.swift */; };
 		BC34C2C52224A02100559B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC34C2C32224A02100559B89 /* Main.storyboard */; };
 		BC34C2C72224A02600559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC34C2C62224A02600559B89 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		8CDB50B56D46E7A543892E64 /* Pods-Parse That GramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse That GramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parse That GramTests/Pods-Parse That GramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		929A5624546EBD185AA1ADDF /* Pods_Parse_That_Gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_That_Gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A90DE1C612081C5E5A0AB99 /* Pods_Parse_That_GramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_That_GramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2464DD222B2642008386B7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BC2464DF222B3890008386B7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		BC34C2BC2224A02100559B89 /* Parse That Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse That Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC34C2BF2224A02100559B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC34C2C42224A02100559B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				BC34C2CB2224A02600559B89 /* Info.plist */,
 				BC34C2ED2224A8F300559B89 /* LoginViewController.swift */,
 				BC34C2EF2224A90000559B89 /* FeedViewController.swift */,
+				BC2464DD222B2642008386B7 /* CameraViewController.swift */,
+				BC2464DF222B3890008386B7 /* PostCell.swift */,
 			);
 			path = "Parse That Gram";
 			sourceTree = "<group>";
@@ -401,8 +407,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC34C2EE2224A8F300559B89 /* LoginViewController.swift in Sources */,
+				BC2464DE222B2642008386B7 /* CameraViewController.swift in Sources */,
 				BC34C2F02224A90000559B89 /* FeedViewController.swift in Sources */,
 				BC34C2C02224A02100559B89 /* AppDelegate.swift in Sources */,
+				BC2464E0222B3890008386B7 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

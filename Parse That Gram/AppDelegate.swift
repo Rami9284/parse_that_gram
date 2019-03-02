@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "ParseThatGram"
-                configuration.server = "https://https://myiosapp300.herokuapp.com/parse"
+                configuration.server = "https://myiosapp300.herokuapp.com/parse"
             })
         )
         return true
