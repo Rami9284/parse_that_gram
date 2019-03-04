@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parse_That_Gram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parse_That_Gram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,7 @@
                                 <rect key="frame" x="68" y="318" width="239" height="30"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxQ-jA-QZu">
@@ -107,7 +108,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="326" id="jIA-HV-kcG" customClass="PostCell" customModule="Parse_That_Gram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="326" id="jIA-HV-kcG" customClass="PostCell" customModule="Parse_That_Gram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="326"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jIA-HV-kcG" id="7Ql-06-8ZN">
@@ -160,6 +161,11 @@
                         <viewLayoutGuide key="safeArea" id="PXQ-41-Jxg"/>
                     </view>
                     <navigationItem key="navigationItem" id="bPS-bI-g1s">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="KBI-hV-Njn">
+                            <connections>
+                                <action selector="onLogOut:" destination="yam-Ua-af6" id="y7g-3j-sWo"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="insta_camera_btn" id="XqV-iD-la2">
                             <connections>
                                 <segue destination="E0Z-Ru-8bl" kind="presentation" id="3OM-uc-5X0"/>
@@ -256,7 +262,7 @@
         <!--Navigation Controller-->
         <scene sceneID="NVl-yY-E4M">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vAJ-hf-RLj" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="vAJ-hf-RLj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MnJ-tm-gSU">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

@@ -64,7 +64,35 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //adding comments
+        
+        let post = posts[indexPath.row]
+        
+        let comment = PFObject(className: "Comments")
+        comment["text"] = "First comment!"
+        comment["post"] = post
+        comment["author"] = PFUser.current()
+        
+        post.add(comment, forKey: "comments")
+        
+        
+    }
+    
    
+   
+    
+    @IBAction func onLogOut(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main",bundle: nil)
+        
+        let loginView = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        
+        delegate.window?.rootViewController = loginView
+    }
     
 
     /*
