@@ -8,6 +8,7 @@ target 'Parse That Gram' do
   # Pods for Parse That Gram
    pod "Parse"
    pod "AlamofireImage"
+   pod "MessageInputBar"
 
   target 'Parse That GramTests' do
     inherit! :search_paths
